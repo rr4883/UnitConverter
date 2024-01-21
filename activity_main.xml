@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#E3CCB2"
+
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:text="UNIT CONVERTER"
+        android:textStyle="bold"
+        android:textColor="#080909"
+        android:textSize="35sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"/>
+
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:hint="Enter number"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:inputType="numberDecimal"
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:id="@+id/text1"
+        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_marginTop="25dp"
+    >
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cm to inch"
+        android:textColor="#00000E"
+        android:layout_marginRight="30dp"
+        android:backgroundTint="#F9EC7E"
+        android:id="@+id/text2"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="inch to cm"
+        android:textColor="#00000E"
+        android:backgroundTint="#F9EC7E"
+        android:id="@+id/text3"/>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        >
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="cel to far"
+            android:textColor="#00000E"
+            android:layout_marginRight="35dp"
+            android:backgroundTint="#F9EC7E"
+            android:id="@+id/text4"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#F9EC7E"
+            android:text="far to cel"
+            android:id="@+id/text5"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        >
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="g to kg"
+            android:textColor="#00000E"
+            android:backgroundTint="#F9EC7E"
+            android:layout_marginRight="35dp"
+            android:id="@+id/text6"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="#F9EC7E"
+            android:text="kg to g"
+            android:textColor="#00000E"
+            android:id="@+id/text7"/>
+
+
+    </LinearLayout>
+
+<TextView
+    android:layout_width="400dp"
+    android:layout_height="200dp"
+    android:padding="20dp"
+    android:text="RESULT:"
+    android:backgroundTint="@color/black"
+    android:textColor="@color/black"
+    android:textSize="25dp"
+    android:id="@+id/text8"/>
+
+</LinearLayout>
